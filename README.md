@@ -84,10 +84,7 @@ Multiple transformations can be combined.
     transform: translate(50px, 30px) rotate(45deg) scale(1.2);
 }
 ```
-This:
-- Moves the element (50px right, 30px down).
-- Rotates it (45 degrees).
-- Scales it (1.2 times its original size).
+This Moves the element (50px right, 30px down) ,Rotates it (45 degrees) and Scales it (1.2 times its original size).
 
 ## Final Example 
 ```css
@@ -103,9 +100,7 @@ This:
     transform: translate(20px, 20px) rotate(-30deg);
 }
 ```
-This:
-- Initially rotates, skews, and scales the element.
-- On hover, it moves and rotates in the opposite direction.
+The element is initially rotated, skewed, and scaled the element,On hover, it moves along the x and y axis and rotates in the anticlockwise direction.
 
 ---
 
