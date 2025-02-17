@@ -92,7 +92,7 @@ This:
 - Rotates it (45 degrees).
 - Scales it (1.2 times its original size).
 
-## Final Example with Full CSS
+## Final Example 
 ```css
 .box {
     width: 100px;
