@@ -60,11 +60,8 @@ The `skew` function distorts an element along the X and/or Y axis.
     transform: skew(20deg, 10deg);
 }
 ```
-This skews the element:
-- 20 degrees along the X-axis (horizontally).
-- 10 degrees along the Y-axis (vertically).
+This skews the element 20 degrees along the X-axis (horizontally) and 10 degrees along the Y-axis (vertically).
 
-If you apply `skewX(30deg)`, it will only slant the element horizontally, while `skewY(30deg)` will slant it vertically.
 
 ## 5. 3D Transformations
 For 3D transformations, use `perspective` to create depth.
