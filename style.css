@@ -1,0 +1,114 @@
+body {
+    font-family: "Trirong", serif;
+  }
+  
+
+button{
+    background-color: #aabbee;
+    padding: 10px;
+    width: max-content;
+    border: 1px solid #000;
+    border-radius: 4px;
+    margin-top: 50px;
+    font-family: "Trirong", serif;
+    margin-right: 50px;
+}
+
+.all-buttons{
+    display: inline-block;
+
+    
+}
+
+.translate-x:hover{
+    translate:5px 0px;
+
+}
+
+.translate-y:hover{
+    translate: 0px 5px;
+}
+
+.skew-x{
+    transform: skewX(20deg);
+}
+.skew-y{
+    transform: skewY(20deg);
+}
+
+.transform-1:hover{
+    background-color: #ff0000;
+    transition-duration: 4s;
+}
+.transform-2:hover{
+    transform: rotateZ(50deg);
+    transition-delay: 0.25s;
+    
+}
+.transform-3:hover{
+    transform: rotate(-39deg);
+}
+.transform-4:hover{
+    transform: scale(1.5,0.5);
+}
+.transform-3d{
+    width: 100px;
+}
+.transform-3d:hover{
+    transform: rotateX(70deg);
+    perspective: 500px;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    transform: rotate(30deg) skew(20deg) scale(1.5);
+    transition: transform 0.5s ease-in-out;
+}
+.box:hover{
+    transform: translate(20px,20px) rotate(-30deg);
+}
+@keyframes fadeIn {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+.box-1:hover{
+    animation: fadeIn 3s;
+    animation-duration: 4s;
+}
+@keyframes Bounce {
+    0%,100%{transform:translateY(0px)}
+    50% {transform: translateY(50px)}
+}
+.box-2:hover{
+animation: Bounce 1.5s;
+}
+@keyframes slide {
+    from{transform: translateX(0px);}
+    to{transform: translateX(30px);}
+    
+}
+.box-3:hover{
+    animation: slide 2s alternate infinite;
+}
+@keyframes fadeOut{
+    from{opacity: 1;}
+    to{opacity: 0.2;}
+}
+.box-4:hover{
+    /* animation: fadeOut 5s forwards; */
+    animation: fadeOut 5s backwards;
+}
+@keyframes colorChange {
+    0% { background-color:#aabbee;}
+    100% { background-color: #ff0000;}
+}
+.box-5{
+    width: 100px;
+    height: 100px;
+}
+.box-5:hover{
+    animation: colorChange 2s ease-in-out infinite;
+    animation-delay: 1s;
+    animation-direction: alternate;
+    /* Hover can be removed and the animation will take place automatically*/
+}
