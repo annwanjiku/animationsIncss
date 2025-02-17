@@ -267,4 +267,4 @@ This keeps the element fully visible after fading in.
     animation-direction: alternate;
 }
 ```
-This changes color from blue to red,each complete cycle of the animation takes 2 seconds,,starts slowly and ends slowly repeats infinitely,animation waits 1 second before starting,reversing each time.
+This changes color from blue to red,each complete cycle of the animation takes 2 seconds,animation starts slowly and ends slowly repeating infinitely,animation waits 1 second before starting,reversing each time.
