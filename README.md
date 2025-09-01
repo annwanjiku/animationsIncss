@@ -270,4 +270,4 @@ This keeps the element fully visible after fading in.
 ```
 This changes color from blue to red,each complete cycle of the animation takes 2 seconds,animation starts slowly and ends slowly repeating infinitely,animation waits 1 second before starting,reversing each time.
 
-[**Examples**]((https://annwanjiku.github.io/animations_in_css/))
+[**Examples**](https://annwanjiku.github.io/animations_in_css/)
