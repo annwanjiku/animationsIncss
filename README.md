@@ -100,7 +100,8 @@ This Moves the element (50px right, 30px down) ,Rotates it (45 degrees) and Scal
     transform: translate(20px, 20px) rotate(-30deg);
 }
 ```
-The element is initially rotated, skewed, and scaled.On hover, it moves along the x and y axis and rotates in the anticlockwise direction.
+The element is initially rotated, skewed, and scaled.  
+On hover, it moves along the x and y axis and rotates in the anticlockwise direction.
 
 ---
 
